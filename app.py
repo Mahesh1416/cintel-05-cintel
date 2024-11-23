@@ -42,11 +42,11 @@ def reactive_calc_combined():
     
 # We are defining the Shiny UI Page layout
 
-ui.page_opts(title="PyShiny Express: Live Data Example", fillable=True)
+ui.page_opts(title="Use of Pyshiny: Live Data Example using Antarctica data", fillable=True)
 
 with ui.sidebar(open="open"):
     
-    ui.h2("Antarctic Explorer", class_="text-center")
+    ui.h2("Exploring Antarctica data", class_="text-center")
     
     ui.p(
         "Real-time temperature readings in Antarctica.",
